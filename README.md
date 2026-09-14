@@ -17,7 +17,6 @@ A Python based discounted cash flow (DCF) model estimating Unilever plc’s intr
 - Shares Market price, 4th September 2026 close https://uk.finance.yahoo.com/quote/UNA.AS/
 - Unilever Alphaspread https://www.alphaspread.com/security/lse/ulvr/discount-rate
 (Cost of Equity, Risk-Free Rate, Beta, ERP)
-- https://in.tradingview.com/symbols/DUS-XS200892127/analysis-overview. 
 - https://cbonds.com/news/3933801/ States the ’S&P Global Ratings affirmed Unilever at "A+”’  and from https://www.breckinridge.com/insights/q1-2026-corporate-bond-market-outlook/  the ‘A Index (+64bps) 4 bps tighter’ where 64 bps = 0.64%, therefore take 0.6 as credit spread.
 - Gov UK, Corporation Tax https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax/rates-and-allowances-corporation-tax
 - Stable Growth Rate https://pages.stern.nyu.edu/~adamodar/New_Home_Page/valquestions/stablegrowthrate.htm?utm
