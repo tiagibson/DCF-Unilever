@@ -24,8 +24,8 @@ A Python based discounted cash flow (DCF) model estimating Unilever plc’s intr
 ## Assumptions and Simplifications
 
 - Net Debt used in place for market value of debt. Finding the actual exact market value of Unilever’s total gross borrowings would require pricing each bond individually, net debt is a reasonable practical substitute.
-- Cost of Debt (4.14%) is estimated from Unilever’s S&P A+ credit rating and a real A rated credit spread (0.64%), cross checked against the observed yield on an actual Unilever bond (4.09%).
-- Perpetual growth rate range (1.5% - 3.5%) is deliberately wide. It reflects genuine disagreement over whether Unilever should be modeled as a UK mature market business or a global multinational earning the majority of it's revenue in higher growth emerging markets.
+- Cost of Debt (4.1%) is estimated from Unilever’s S&P A+ credit rating and a real A rated credit spread (0.64%), cross checked against the observed yield on an actual Unilever bond (4.09%).
+- Perpetual growth rate range (1.5% - 3.5%) is deliberately wide. It reflects genuine disagreement over whether Unilever should be modeled as a UK mature market business or a global multinational earning the majority of its revenue in higher growth emerging markets.
 - A guard clause enforces a minimum 0.5% gap between the discount rate and perpetual growth rate in every calculation. This ensures the Gordon Growth Model does not become mathematically unstable as the two converge.
 
 ## Result
