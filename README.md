@@ -35,4 +35,5 @@ Base case implied share price: €63.81, versus Unilever's actual market price o
 
 But, this isn't a signal to buy on its own. A DCF's output is only as reliable as its assumptions. The sensitivity table below shows how much the implied share price moves across a reasonable range of discount rate and perpetual growth assumptions, from €37 to €164 depending on which end of the range used.
 
+![Sensitivity heat map](sensitivity_heatmap.png)
 
