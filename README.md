@@ -33,7 +33,19 @@ A Python based discounted cash flow (DCF) model estimating Unilever plc’s intr
 
 Base case implied share price: €63.81, versus Unilever's actual market price on the close of September 4th 2026: €55.48. This suggests the model's base case assumptions imply the market may be undervaluing the stock by roughly 15%.
 
-But, this isn't a signal to buy on its own. A DCF's output is only as reliable as its assumptions. The sensitivity table below shows how much the implied share price moves across a reasonable range of discount rate and perpetual growth assumptions, from €37 to €164 depending on which end of the range used.
+But, this isn't a signal to buy on its own. A DCF's output is only as reliable as its assumptions. The sensitivity map below shows how much the implied share price moves across a reasonable range of discount rate and perpetual growth assumptions, from €37 to €164 depending on which end of the range used.
 
 ![Sensitivity heat map](sensitivity_heatmap.png)
+
+## How to Run
+'''bash
+pip install numpy pandas matplotlib
+python dcf_model.py
+'''
+This prints the base case valuation and the full sensitivity table to the console.
+
+## Possible extensions 
+- Pull financial data automatically via an API (for example 'yfinance')
+- Use a longer dated Unilever bond for a more precise cost of debt (the one used matures in under a year)
+- Model FCF growth by business segment rather than a blended rate.
 
