@@ -38,10 +38,10 @@ But, this isn't a signal to buy on its own. A DCF's output is only as reliable a
 ![Sensitivity heat map](sensitivity_heatmap.png)
 
 ## How to Run
-'''bash
+```bash
 pip install numpy pandas matplotlib
 python dcf_model.py
-'''
+```
 This prints the base case valuation and the full sensitivity table to the console.
 
 ## Possible extensions 
